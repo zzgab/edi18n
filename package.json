@@ -1,5 +1,6 @@
 {
-  "name": "json-ed",
+  "homepage": "https://zzgab.github.io/targum",
+  "name": "Targum",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
