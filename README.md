@@ -19,3 +19,7 @@ Edit the contents, then click on _Download_ to obtain the updated JSON file (you
 with updating the source of truth (ie. GH PR etc.)).
 
 This tool can be used online on https://zzgab.github.io/targum
+
+## Credits
+
+Garbage icon: [Kirill Kazachek](https://www.flaticon.com/authors/kirill-kazachek) from flaticon.com

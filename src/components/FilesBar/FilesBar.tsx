@@ -46,7 +46,12 @@ export function FilesBar(props: Props) {
                 return (
                     <div className={classes.Language} key={i}>
                         {lang}
-                        <Button text="X" onClick={() => props.removeLanguage(lang)} />
+
+                        <img src="https://www.flaticon.com/svg/static/icons/svg/223/223499.svg"
+                            className={classes.Icon}
+                            alt="Garbage"
+                            onClick={() => props.removeLanguage(lang)} />
+
                         <Button text="download" onClick={() => props.onDownload(lang)} />
                     </div>
                 );

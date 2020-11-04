@@ -29,8 +29,11 @@ function Entry(props: Props) {
         <div className={classNames(classes.Row, {[classes.Focused]: focus, [classes.Incomplete]: isIncompleteLine()})}>
 
             <div className={classes.TranslationKey}>
-                <Button text="X" onClick={() => props.onRemove(props.tkey)} />
-                {props.tkey}
+                <img src="https://www.flaticon.com/svg/static/icons/svg/223/223499.svg"
+                    className={classes.Icon}
+                    alt="Garbage"
+                    onClick={() => props.onRemove(props.tkey)} />
+                <span className={classes.TranslationKeyText}>{props.tkey}</span>
             </div>
 
             {Object.keys(props.langs).map(code => (
